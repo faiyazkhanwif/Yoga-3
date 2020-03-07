@@ -1,0 +1,104 @@
+body{
+    background-color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+    color: #3F2860;
+}
+header{
+    background-color: #9BC1C2;
+    height: 150px;
+    background-image: url(lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h1{
+    padding-top: 50px;
+    padding-left: 2em;
+}
+nav{
+    text-align: center;
+    float: right;
+    width: 150px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #b3c7e6;
+    border-bottom: 1px solid #ffffff;
+    display: block;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover {color:#0099CC;}
+
+main{
+    display: block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    font: #000000 ;
+    display: block;
+    overflow: auto;
+}
+img{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+footer{
+    background-color: #9bc1c2;
+    font-size: small;
+    font-style: italic;
+    padding: 1em;
+    text-align: center;
+}
+#wrapper{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f5f5f5;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+.floatleft{
+    float: left;
+    margin: 2em;
+}
+.studio{
+    font-style: italic;
+    font-weight: bold;
+}
+h3{
+    background-color: #A285FA;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+form{
+    padding: 2em;
+}
+label{
+    float: left;
+    text-align: right;
+    font-weight: bold;
+    width: 15em;
+    padding-left: 4em;
+    padding-right: 1em;
+    display: block;
+}
+input, select {
+    margin-bottom: 2em;
+    display: block;
+}
+#newSubmit {
+    margin-left: 20em;
+}
+*{
+    box-sizing: border-box;
+}
+header,nav,main,footer {
+    display: block;
+}
